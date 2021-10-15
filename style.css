@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(240, 240, 240) ;
+	background-color: #8D92D4 ;
 	color : #575F7D;
 	font-family: 'Playfair Display', serif;
 	font-size: 17px;
@@ -28,21 +28,21 @@ h1, h2{
 	}
 
 
-	a {
+	#introduction a {
 		font-family: 'Poppins', sans-serif;
-		color : #6B72E1 ;
+		color : #F0F0F0 ;
 		transition: color 0.6s ease;
 		font-weight: bold;
 		text-decoration: none;
 		padding: 7px;
-		background: #F0F0F0;
+		background: #6B72E1;
 		border-radius: 10px;
 	}
 
 	
-	a:hover {
+	#introduction a:hover {
 		text-decoration: none;
-		 color: #F5BA4C;
+		 color: #FDE44D;
 		 font-weight: bold;
 		}
 	
@@ -50,13 +50,12 @@ h1, h2{
 		text-justify: center;
 	}
 
-
 	div {
-	background: white;
+	background: rgba(0, 0, 0, .0);
 	padding: 30px;
 	margin: 40px;
-	border-radius: 7px;
-	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	border-radius: 8px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.0);
 	border:  0px solid black;
 	}
 
@@ -72,7 +71,6 @@ box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
 border-radius: 4px;
 margin: 20px 0px;
 text-align: center;
-
 }
 
 .img-circle {
@@ -80,13 +78,6 @@ border-radius: 50%;
 }
 
 .btn-blue {
-	background-color: #6B72E1;
-	color: white;
-	padding: 15px 20px;
-	border-radius: 4px;
-}
-
-.btn-blue:hover {
 	background-color: #6B72E1;
 	color: white;
 	padding: 15px 20px;
@@ -111,8 +102,7 @@ color: rgb(200, 200, 200);
 .list-inline i:hover {
 font-size: 50px;
 color: black;	
-}
-
+}	
 
 .src="images/car.jpg" {
 	border-radius: 4px;
@@ -123,5 +113,9 @@ color: black;
 }
 
 #moviespace p {
+	margin-bottom: 40px;
+}
+
+#musicspace p {
 	margin-bottom: 40px;
 }
