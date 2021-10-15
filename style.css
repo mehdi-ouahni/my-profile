@@ -1,0 +1,126 @@
+body {
+	background-color: rgb(240, 240, 240) ;
+	color : #575F7D;
+	font-family: 'Playfair Display', serif;
+	font-size: 17px;
+	line-height: 1.6;
+	letter-spacing: 2px;
+	font-weight: lighter;
+}
+
+
+
+h1, h2{
+		font-family: Helvetica, sherif;
+}
+
+    h1{
+    font-family: 'Poppins', sans-serif;
+	color: ##081127;
+	font-weight: lighter;
+	letter-spacing: 5px;
+	font-size: 32px;
+	}
+
+	h2{
+	color: rgb(100, 100, 100);
+	font-weight: lighter;
+	letter-spacing: 5px;
+	font-size: 24px;
+	}
+
+div {
+	background: white;
+	padding: 30px;
+	margin: 40px;
+	border-radius: 7px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	border:  0px solid black;
+}
+
+
+	a {
+		color : #6B72E1 ;
+		transition: color 0.9s ease;
+		font-weight: bold;
+		text-decoration: none;
+
+	}
+	a:hover {
+		text-decoration: none;
+		 color: #F5BA4C;
+		 font-weight: bold;
+
+
+		}
+	p{
+		text-justify: center;
+	}
+
+.container {
+width: 700px;
+margin: 40px auto
+}
+
+.card-white {
+background-color: white;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+border-radius: 4px;
+margin: 20px 0px;
+text-align: center;
+
+}
+
+.img-circle {
+border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+display:  inline;
+padding: 10px;	
+}
+
+.list-inline i {
+font-size: 50px;
+color: rgb(200, 200, 200);	
+}
+
+.list-inline i:hover {
+font-size: 50px;
+color: black;	
+}
+
+/* #introduction p {
+	margin-bottom: 40px;
+} */
+
+
+
+.src="images/car.jpg" {
+	border-radius: 4px;
+
+}
+
+#carspace p {
+	margin-bottom: 40px;
+}
